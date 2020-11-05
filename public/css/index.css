@@ -1,0 +1,300 @@
+header {
+    background-image: linear-gradient(rgba(0, 11, 81, 0.7), rgba(0, 11, 81, 0.5)),
+        url("../pictures/im1.png");
+    height: 100vh;
+}
+
+#h1-main {
+    font-size: 85px;
+}
+
+#thin-h1 {
+    font-weight: lighter;
+    font-size: 85px;
+}
+
+.h-90 {
+    height: 90% !important;
+}
+
+.h-10 {
+    height: 10% !important;
+}
+.pic {
+    overflow: hidden;
+}
+.card-img-top {
+    transition: 0.5s ease-in-out;
+}
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+.ulnav {
+    list-style-type: none;
+
+    padding-inline-start: 0px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+.ulnav li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.ulnav li a {
+    color: rgb(165, 163, 163);
+}
+.ulnav li:hover a {
+    color: blue;
+    cursor: pointer;
+}
+.icon {
+    background-color: #34b0f6;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 40px;
+    margin: 0px auto;
+}
+.icon i {
+    line-height: 2.5;
+}
+.consultation {
+    height: 620px;
+    margin-top: 100px;
+}
+.consultation .left {
+    flex: 50%;
+    max-width: 50%;
+    background-image: url("../pictures/pic4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.consultation .right {
+    flex: 50%;
+    max-width: 50%;
+    background: linear-gradient(45deg, #ffffff 0%, #ffffff 100%);
+    padding: 50px 60px;
+}
+.consultation .heading h2 {
+    font-size: 35px;
+    color: white;
+    font-weight: 800;
+}
+.consultation .info {
+    margin-top: 15px;
+    width: 500px;
+}
+.consultation .info select {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 15px;
+}
+.consultation form input {
+    width: 232px;
+    padding: 16px;
+    font-size: 15px;
+    color: #666;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+.consultation form input:nth-of-type(1) {
+    margin-right: 30px;
+}
+.consultation form input:nth-of-type(3) {
+    margin-right: 30px;
+}
+.consultation form input:nth-of-type(5) {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.consultation button {
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    background-color: #34b0f6;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    font-size: 15px;
+    transition: 0.3s;
+    margin-top: 50px;
+}
+.consultation button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px #34b0f6 solid;
+    color: #34b0f6;
+}
+
+footer {
+    background-color: #1a1a1a;
+    height: 700px;
+}
+footer .box {
+    flex: 32%;
+    max-width: 32%;
+    position: relative;
+}
+footer .parts {
+    padding-top: 100px;
+}
+footer h2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 28px;
+}
+footer h2::after {
+    content: " ";
+    position: absolute;
+    top: 35px;
+    left: 0;
+    height: 4px;
+    background-color: #00bd56;
+    width: 42px;
+}
+footer .box:first-of-type p {
+    font-size: 16px;
+    color: #a1a1a1;
+    line-height: 28px;
+}
+footer .box:first-of-type .list {
+    margin-top: 15px;
+}
+footer .box:first-of-type .list ul {
+    list-style-type: none;
+}
+footer .box:first-of-type .list ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #313131;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+footer .box:first-of-type .list ul li i {
+    color: #00bd56;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    font-size: 18px;
+    transform: translate(50%, -50%);
+    transition: 0.3s;
+}
+footer .box:first-of-type .list ul li i:hover {
+    color: #fefefe;
+}
+footer .box .list2 {
+    margin-top: 20px;
+}
+footer .box .list2 ul {
+    list-style: none;
+}
+footer .box:nth-child(3) {
+    padding-left: 30px;
+}
+footer .box .list2 ul li {
+    line-height: 45px;
+    font-size: 16px;
+    color: #a1a1a1;
+    cursor: pointer;
+}
+footer .box .list3 {
+    margin-top: 20px;
+}
+footer .box .list3 ul {
+    list-style-type: none;
+}
+footer .box .list3 ul li {
+    color: #a1a1a1;
+    display: flex;
+    font-size: 18px;
+}
+footer .box .list3 ul li:not(:first-of-type) {
+    line-height: 55px;
+    align-items: center;
+}
+footer .box .list3 ul li i {
+    margin-right: 15px;
+    font-size: 20px;
+}
+footer .img {
+    flex: 40%;
+    max-width: 40%;
+}
+
+footer .para {
+    flex: 60%;
+    max-width: 60%;
+    color: rgb(240, 233, 233);
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+footer .para p {
+    line-height: 22px;
+}
+footer .para:hover {
+    color: #00bd56;
+}
+
+footer .box .div1 .img img {
+    width: 80%;
+    height: 95%;
+    border-radius: 8px;
+}
+footer .box .span {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    text-align: right;
+    margin-right: 45px;
+    color: #a1a1a1;
+    font-size: 12px;
+    cursor: pointer;
+}
+footer .box .span span:not(:last-of-type) {
+    margin-right: 8px;
+}
+.foot {
+    height: 150px;
+    color: #a1a1a1;
+    padding-top: 10px;
+    padding-left: 330px;
+}
+.foot span {
+    color: #00bd56;
+    cursor: pointer;
+}
+.overlay,
+.over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    transition: 0.3s;
+}
+.overlay {
+    background-color: #2eb6e7;
+    opacity: 0.7;
+}
+.over {
+    background-color: #2381f6;
+    opacity: 0.7;
+}
